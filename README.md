@@ -1,12 +1,22 @@
 Weight-to-Height Predictor: A Simple Linear Regression App
+
+
 This project is a demonstration of a foundational machine learning concept, Simple Linear Regression, packaged into a simple, functional web application. The goal is to predict a person's height based on their weight, showcasing a complete end-to-end machine learning workflow from model training to deployment.
 
+
+
 Project Overview
+
+
 The core of this project is a Linear Regression model. You can think of this model as a tool that finds the straight line which best fits a set of data points (in this case, pairs of weight and height). By finding this line, the model learns the relationship between weight and height, allowing it to make a new prediction when a weight is provided.
 
 This app is designed to highlight key best practices in machine learning, making it a great portfolio piece.
 
+
+
 Technologies Used
+
+
 Python: The primary programming language.
 
 Flask: A lightweight web framework used to create the web app's backend.
@@ -17,18 +27,23 @@ Pandas & Matplotlib: Used within the Jupyter Notebook for data handling and expl
 
 HTML & Tailwind CSS: For the simple and clean front-end user interface.
 
-How to Run the App
-Clone the repository: git clone <URL_of_your_GitHub_repo>
 
-Navigate to the project directory: cd <your_project_folder>
+
+How to Run the App
+
+
+Clone the repository: git clone <https://github.com/dharmik2000/Weight-to-Height-Predictor-A-Simple-Linear-Regression-App>
+
+Navigate to the project directory: cd <Simple linear Regression\Practical 1\my-ml-app>
 
 Install the required libraries: pip install Flask scikit-learn pandas
 
 Run the application: python app.py
 
-Open in your browser: Go to http://127.0.0.1:5000 to see the app running.
 
 Key Learnings
+
+
 This project taught me several important lessons about building reliable machine learning systems:
 
 The Importance of Standardization: Models like Linear Regression can be sensitive to the scale of your data. For example, if we train the model on data where all values are close to zero, it won't work correctly on new data with much larger numbers. Standardization fixes this by adjusting the data to a common scale, ensuring consistent results.
